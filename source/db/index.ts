@@ -16,10 +16,6 @@ class Database {
         this.client.connect()
     }
 
-    async test() {
-        const result = await this.client.connect()
-        console.log(result)
-    }
 }
 
 export default Database

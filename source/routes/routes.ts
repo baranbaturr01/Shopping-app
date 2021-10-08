@@ -16,7 +16,7 @@ router.post('/admin/login', userController.login)
 
 /*Customer*/
 
-router.post('/register-customer', CheckUserToken, customerController.registerCustomer)
+router.post('/customer/register', CheckUserToken, customerController.registerCustomer)
 router.get('/get-customers', CheckUserToken, customerController.getCustomer)
 router.post('/customer/login', customerController.customerLogin)
 router.post('/order-detail', checkCustomerToken, customerController.getDetailOrder)

@@ -16,27 +16,4 @@ async function initDb() {
     return await connection.connect()
 }
 
-
-const Connect = async () => new Promise<Client>((resolve, reject) => {
-    connection.connect((err) => {
-        if (err) {
-            reject(err)
-            return
-        }
-        resolve(connection)
-    })
-
-})
-
-const Query = async (connection: Client, query: string) => {
-    new Promise(((resolve, reject) => {
-        connection.query(query, (err, result) => {
-            if (err) {
-                reject(err)
-            }
-            resolve(result)
-        })
-    }))
-}
-
-export {initDb, connection, Connect, Query}
+export {initDb, connection}
