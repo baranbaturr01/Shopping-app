@@ -1,6 +1,5 @@
 import {connection} from "../config/postgresql";
 import bcryptjs from "bcryptjs";
-import IUser from "../interfaces/user";
 import jwt from "jsonwebtoken";
 import config from "../config/config";
 
