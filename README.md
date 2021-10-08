@@ -152,3 +152,6 @@ nodemon
 - routes içerisinde rotalarım bulunuyor
 - services içerisinde yine token validayonu için kullandığım fonksiyonlar bulunuyor
 - Utils dosyası yardımcı araçlarım var mesela JWTDecode gibi
+
+- ### POSTMAN COLLECTION LINK
+- https://www.postman.com/collections/e5658f832d24513dafb0
