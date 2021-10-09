@@ -4,7 +4,6 @@ import express from 'express';
 import logging from './config/logging';
 import config from './config/config';
 import routes from './routes/routes'
-import {Pool, Client} from 'pg'
 import {connection, initDb} from './config/postgresql'
 
 const NAMESPACE = `Server`
